@@ -1,0 +1,30 @@
+<configs>
+
+	<!-- Remove original UI window -->
+	<remove xpath="/windows/window[@name='windowPinRecipes']" />
+
+	<!-- Pinnable Recipes -->
+	<append xpath="/windows">
+
+		<!-- Left or Right side of screen -->
+		<!-- anchor = "LeftCenter" or "RightCenter" -->
+		<window name="windowPinRecipes" anchor="RightCenter" visible="true">
+
+			<!-- pos = "8,180" or "-258,180" -->
+			<grid rows="6" pos="-258,180" width="250" height="360"
+			      cell_width="250" cell_height="60" arrangement="vertical">
+
+				<pinned_recipe_row name="0" slot="0"/>
+				<pinned_recipe_row name="1" slot="1"/>
+				<pinned_recipe_row name="2" slot="2"/>
+				<pinned_recipe_row name="3" slot="3"/>
+				<pinned_recipe_row name="4" slot="4"/>
+				<pinned_recipe_row name="5" slot="5"/>
+
+			</grid>
+
+		</window>
+
+	</append>
+
+</configs>
