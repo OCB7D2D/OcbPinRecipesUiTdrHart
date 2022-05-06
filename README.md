@@ -9,6 +9,12 @@ it to fit a bit closer to the original UI.
 
 ## Changelog
 
+### Version 0.2.0
+
+- Update for OcbPinRecipes Version 0.5.0
+- Adds a sprite to indicate locked recipes
+- Enables scroll wheel for recipe count
+
 ### Version 0.1.0
 
 - Initial version
