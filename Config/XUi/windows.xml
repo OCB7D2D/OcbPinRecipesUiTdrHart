@@ -8,7 +8,18 @@
 
 		<!-- Left or Right side of screen -->
 		<!-- anchor = "LeftCenter" or "RightCenter" -->
-		<window name="windowPinRecipes" anchor="RightCenter" visible="true">
+		<window name="windowPinRecipes" anchor="RightCenter" visible="true" grab_key_binding="G">
+
+			<!-- Button to grab ingredients for all pinned recipes  -->
+			<button pos="-35,200" width="20" height="20"
+					name="btnGrab" type="sliced" hoverscale="1.2"
+					sprite="ui_game_symbol_hand"
+					defaultcolor="240,240,240,220"
+					justify="center" pivot="center"
+					sound="[paging_click]"
+					foregroundlayer="true"
+					visible="{hasContainer}"
+					tooltip_key="xuiPinGrab" />
 
 			<!-- pos = "8,180" or "-258,180" -->
 			<grid rows="6" pos="-258,180" width="250" height="360"
