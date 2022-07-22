@@ -7,7 +7,16 @@ it to fit a bit closer to the original UI.
 
 ![In-Game Details Pinned](Screens/in-game-detail-pins.png)
 
+[![GitHub CI Compile Status][4]][3]
+
 ## Changelog
+
+### Version 0.3.0
+
+- Update for OcbPinRecipes Version 0.6.0
+- Add button for "Grab ingredients" function
+- Set key-binding for "Grab ingredients" to `G`
+- Automated deployment and release packaging
 
 ### Version 0.2.0
 
@@ -21,3 +30,5 @@ it to fit a bit closer to the original UI.
 
 [1]: https://github.com/OCB7D2D/OcbPinRecipes
 [2]: https://community.7daystodie.com/topic/26859-pin-recipes-mod/?do=findComment&comment=466832
+[3]: https://github.com/OCB7D2D/OcbPinRecipesUiTdrHart/actions/workflows/ci.yml
+[4]: https://github.com/OCB7D2D/OcbPinRecipesUiTdrHart/actions/workflows/ci.yml/badge.svg
