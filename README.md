@@ -11,6 +11,11 @@ it to fit a bit closer to the original UI.
 
 ## Changelog
 
+### Version 0.3.1
+
+- Update for OcbPinRecipes Version 0.6.1
+- Add double click feature for ingredients
+
 ### Version 0.3.0
 
 - Update for OcbPinRecipes Version 0.6.0
