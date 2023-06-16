@@ -11,6 +11,11 @@ it to fit a bit closer to the original UI.
 
 ## Changelog
 
+### Version 0.4.0
+
+- Update for OcbPinRecipes Version 0.8.4
+- Add default controller binding (DPad-Down)
+
 ### Version 0.3.1
 
 - Update for OcbPinRecipes Version 0.6.1
