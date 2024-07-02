@@ -19,6 +19,14 @@
 					       foregroundlayer="true" globalopacitymod="0.9"
 					       sprite="{icon}" color="{iconTint}" />
 
+					<!-- Label showing the quality to craft (if it has any) -->
+					<label depth="1" name="quality" text="{quality}" visible="{hasQuality}"
+					       pos="0,-8" font_size="18" width="30" height="30"
+					       foregroundlayer="true" crispness="Always"
+					       effect="Outline" effect_color="20,20,20,230" effect_distance="1,1"
+					       justify="center" pivot="TopLeft"
+					       color="240,240,120,248"/>
+
 					<!-- Icon indicating recipe is locked -->
 					<sprite depth="2" pos="6,-6" width="20" height="20"
 					        sprite="ui_game_symbol_locked" color="248,128,16,220"
