@@ -19,6 +19,10 @@ Only clone or download the repo if you know what you do!
 
 ## Changelog
 
+### Version 0.9.1
+
+- Better compatibility for Afterlife Overhaul
+
 ### Version 0.9.0
 
 - Update for OcbPinRecipes Version 0.9.0
